@@ -17,3 +17,19 @@
  * - Bonus
  * - Final salary
  */
+
+export {};
+
+const employeeName: string = "Melody";
+const basicSalary: number = 5000000;
+const overtimeHours: number = 12;
+const overtimeRate: number = 50000;
+const performanceBonus: number = overtimeHours > 10 ? 300000 : 0;
+
+const overtimePay: number = overtimeHours * overtimeRate;
+const finalSalary: number = basicSalary + overtimePay + performanceBonus;
+
+console.log("Employee:", employeeName);
+console.log("Overtime pay:", overtimePay);
+console.log("Bonus:", performanceBonus);
+console.log("Final salary:", finalSalary);

@@ -16,3 +16,25 @@
  * 2. Store the product data in a single collection.
  * 3. Display the product data using console.log.
  */
+
+type FlashSaleProduct = {
+	productName: string;
+	productCode: string;
+	originalPrice: number;
+	discountPercentage: number;
+	quantity: number;
+	hasFreeShipping: boolean;
+	stockQuantity: number;
+};
+
+const flashSaleProduct: FlashSaleProduct = {
+	productName: "Mechanical Keyboard RGB",
+	productCode: "KBR-001",
+	originalPrice: 850000,
+	discountPercentage: 25,
+	quantity: 2,
+	hasFreeShipping: true,
+	stockQuantity: 18,
+};
+
+console.log(flashSaleProduct);

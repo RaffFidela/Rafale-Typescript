@@ -21,3 +21,18 @@
  * 2. Store the temperature data in a single collection.
  * 3. Display the temperature data using console.log.
  */
+
+type Participant = {
+	studentId: string;
+	name: string;
+	age: number;
+	hasPaid: boolean;
+};
+
+const participants: Participant[] = [
+	{ studentId: "ST001", name: "Rahmat Tahalu", age: 16, hasPaid: true },
+	{ studentId: "ST002", name: "Melody Queen Wijaya", age: 17, hasPaid: false },
+	{ studentId: "ST003", name: "Gwen Stacy", age: 16, hasPaid: true },
+];
+
+console.log(participants);

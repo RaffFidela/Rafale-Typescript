@@ -14,3 +14,18 @@
  * 4. Declare all variables in TypeScript.
  * 5. Display the product data using console.log.
  */
+
+type Student = {
+	studentId: string;
+	fullName: string;
+	age: number;
+	isActive: boolean;
+};
+
+const students: Student[] = [
+	{ studentId: "ST001", fullName: "Rahmat Tahalu", age: 16, isActive: true },
+	{ studentId: "ST002", fullName: "Stephanie Floriska", age: 17, isActive: true },
+	{ studentId: "ST003", fullName: "Jaki Arip", age: 16, isActive: false },
+];
+
+console.log(students);
