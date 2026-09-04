@@ -34,7 +34,7 @@
  * - Display whether the student is accepted.
  */
 
-const studentName: string = "Manca Inyahsa Yahya";
+const studentName: string = "Manca Ilyahsa Yahya";
 const gpa: number = 3.89;
 const familyIncome: number = 4200000;
 const competitionCount: number = 4;
