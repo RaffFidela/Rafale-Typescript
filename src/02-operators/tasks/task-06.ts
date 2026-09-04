@@ -14,8 +14,6 @@
  * - Final payment
  */
 
-export {};
-
 const hoursPlayed: number = 7;
 const minutesPlayed: number = 35;
 const pricePerHour: number = 8000;

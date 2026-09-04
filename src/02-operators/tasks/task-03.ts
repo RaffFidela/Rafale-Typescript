@@ -18,8 +18,6 @@
  * - Final salary
  */
 
-export {};
-
 const employeeName: string = "Melody";
 const basicSalary: number = 5000000;
 const overtimeHours: number = 12;

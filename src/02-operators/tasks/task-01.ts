@@ -15,8 +15,6 @@
  * 2. Display the calculation results.
  */
 
-export {};
-
 const friedRiceQuantity: number = 3;
 const friedRicePrice: number = 18000;
 const waterQuantity: number = 2;

@@ -34,8 +34,6 @@
  * - Display whether the student is accepted.
  */
 
-export {};
-
 const studentName: string = "Manca Inyahsa Yahya";
 const gpa: number = 3.89;
 const familyIncome: number = 4200000;

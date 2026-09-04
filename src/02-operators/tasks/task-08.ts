@@ -25,8 +25,6 @@
  * - Green Energy Program eligibility
  */
 
-export {};
-
 const previousMeter: number = 25640;
 const currentMeter: number = 25892;
 const electricityPricePerKwh: number = 1650;

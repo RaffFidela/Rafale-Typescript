@@ -22,8 +22,6 @@
  * - Whether the guest is eligible for free breakfast
  */
 
-export {};
-
 const roomPricePerNight: number = 650000;
 const nightsStayed: number = 4;
 const serviceCharge: number = 120000;

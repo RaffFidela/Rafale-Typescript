@@ -23,8 +23,6 @@
 
  */
 
-export {};
-
 const keyboardPrice: number = 850000;
 const keyboardQuantity: number = 1;
 const mousePrice: number = 275000;
