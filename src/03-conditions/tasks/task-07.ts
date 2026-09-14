@@ -30,3 +30,5 @@
  * 2. Implement both screening stages.
  * 3. Display the loan decision.
  */
+
+const applicantName: string = "Andi Wijaya";
