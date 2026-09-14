@@ -18,3 +18,22 @@
  * 2. Implement the business rules using if...else if...else.
  * 3. Display the recommended package.
  */
+
+const customerName: string = "Raka Saputra";
+const monthlyUsage: number = 124;
+
+if (monthlyUsage < 50) {
+    console.log("Recommended Package: Basic");
+}
+
+else if (monthlyUsage >= 50 && monthlyUsage <= 150) {
+    console.log("Recommended Package: Standard");
+}
+
+else if (monthlyUsage > 150) {
+    console.log("Recommended Package: Premium");
+}
+
+else {
+    console.log("Invalid monthly usage");
+}
