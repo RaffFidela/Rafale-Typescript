@@ -23,3 +23,12 @@
  * - Number of passing students
  * - Number of failing students
  */
+
+const scores: number[] = [
+    82, 75, 91, 64, 88, 73, 95, 80, 69, 77,
+    84, 92, 58, 79, 86, 71, 90, 67, 83, 76
+];
+
+let passingCount: number = 0;
+let failingCount: number = 0;
+let totalScore: number = 0;
