@@ -32,3 +32,7 @@ const scores: number[] = [
 let passingCount: number = 0;
 let failingCount: number = 0;
 let totalScore: number = 0;
+
+for (const score of scores) {
+    totalScore += score;
+}

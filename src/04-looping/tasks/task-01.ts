@@ -16,8 +16,8 @@
 
  */
 
-for (let studentNumber = 1; studentNumber <= 30; studentNumber++) {
-    console.log(`Checking attendance for Student #${studentNumber}`);
+for (let i = 1; i <= 30; i++) {
+    console.log(`Checking attendance for Student #${i}`);
 }
 
 console.log("Attendance verification completed.");
