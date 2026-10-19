@@ -39,18 +39,43 @@ const students = [
   }
 ];
 
-function countActiveStudents(...){
-
+function countActiveStudents(students: any[]): number {
+    let count = 0;
+    for (const student of students) {
+        if (student.active) {
+            count++;
+        }
+    }
+    return count;
 }
 
-function countInactiveStudents(...){
-
+function countInactiveStudents(students: any[]): number {
+    let count = 0;
+    for (const student of students) {
+        if (!student.active) {
+            count++;
+        }
+    }
+    return count;
 }
 
-function countStudentsByMajor(...){
-
+function countStudentsByMajor(students: any[], major: string): number {
+    let count = 0;
+    for (const student of students) {
+        if (student.major === major) {
+            count++;
+        }
+    }
+    return count;
 }
 
-function printEnrollmentReport(...){
-    
+function printEnrollmentReport(students: any[]) {
+    console.log("Enrollment Report");
+    console.log("=================");
+    console.log(`Total students: ${students.length}`);
+    console.log(`Active students: ${countActiveStudents(students)}`);
+    console.log(`Inactive students: ${countInactiveStudents(students)}`);
+    console.log(`Software Engineering students: ${countStudentsByMajor(students, "Software Engineering")}`);
+    console.log(`Networking students: ${countStudentsByMajor(students, "Networking")}`);
+    console.log(`Multimedia students: ${countStudentsByMajor(students, "Multimedia")}`);
 }
